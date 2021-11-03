@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт визитка!</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Oswald&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <div id="wrapper">
+        <header> <a id="logo" href="index.html"> <span class="pink"> Сайт</span> <i> визитка!</i></a>
+            <span id="active" class="reform">
+            <a href="uslugi.html" ><span id="rt1">УСЛУГИ</span></a>
+            <a href="onas.html"><span id="rt2">О НАС</span></a>
+            <a href="klient.html"><span id="rt3">КЛИЕНТЫ</span></a>
+            <a href="contaktu.html"><span id="rt4">КОНТАКТЫ</span></a>
+            </span>
+        </header>
+        
+        <main>
+            <form id="contact-form" action="">
+                <div>
+                    <label for="topic">Тема</label><br>
+                    <select name="topic" id="topic">
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Отзыв</option>
+                        <option value="3">Предложить сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select>
+                </div>
+                <div class="form__item">
+                    <label for="name">Имя</label><br>
+                    <input required placeholder="Ваше Имя"type="text" id="name" name="name">
+                </div>
+                <div class="form__item">
+                    <label for="name" >E-mail</label><br>
+                    <input type="email" id="secondname" placeholder="Ваш E-mail" required name="email">
+                </div>
+                <div>
+                    <label for="name">Введите сообщение</label><br>
+                    <textarea required placeholder="Текст сообщения..." name="texts" id="rtyr" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="name">Ваш телефон</label><br>
+                    <input type="tel" id="secondname" placeholder="Ваш контактный номер.." required name="tel">
+                </div>
+                <div class="form__item">
+                    <input type="submit" value="Отправить">
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p class="root"><a class="Ashka" href="svyaz.html">НАПИСАТЬ НАМ </a><span class="root2">&copy;НОВАЯ КОМПАНИЯ</span> 
+            <span class="root3">
+                <a href="https://www.instagram.com/" target= "_blank" ><img class="insta" src="icons/instagram.png" alt="нет иконки"></a>
+                <a href="https://www.instagram.com/" target= "_blank" ><img class="vk" src="icons/vkontakte.png" alt="нет иконки"></a>
+                <a href="https://www.instagram.com/" target= "_blank" ><img class="facebook" src="icons/facebook.png" alt="нет иконки"></a>
+            </span>
+        </p>    
+    </footer>
+</body>
+</html>
